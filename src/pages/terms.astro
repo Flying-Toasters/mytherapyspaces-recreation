@@ -1,7 +1,91 @@
 ---
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import Chatbot from '../components/Chatbot.astro';
 ---
 <head>
     <meta charset="utf-8">
 </head>
+
+<div class="min-h-screen text-foreground pt-20" style="background-color:white">
+    <Header />
+    <div class="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto">
+      <a class="inline-flex items-center text-gray-600 hover:text-gray-900 mb-8" href="/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-5 h-5 mr-2">
+          <path d="m12 19-7-7 7-7"></path>
+          <path d="M19 12H5"></path>
+        </svg>
+        Back to home
+      </a>
+
+      <div class="bg-white shadow rounded-lg p-8">
+        <h1 class="text-3xl font-bold text-gray-900 mb-8">Terms and Conditions</h1>
+        <div class="space-y-6 text-gray-600">
+          
+          <section>
+            <h2 class="text-xl font-semibold text-gray-900 mb-4">1. Acceptance of Terms</h2>
+            <p>By accessing and using the MyTherapySpaces platform, you agree to comply with these terms and conditions. If you disagree with any part of these terms, you may not use our services.</p>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-semibold text-gray-900 mb-4">2. Service Description</h2>
+            <p>MyTherapySpaces is a platform that connects clients, therapists, and wellness centers, facilitating therapy session scheduling and wellness service management.</p>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-semibold text-gray-900 mb-4">3. User Accounts</h2>
+            <p>To use our services, you need to create an account. You are responsible for maintaining the confidentiality of your account and password, and for all activities that occur under your account.</p>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-semibold text-gray-900 mb-4">4. User Content</h2>
+            <p>You retain all rights to any content you submit, post, or display on the platform. By uploading content, you grant us a worldwide, non-exclusive, royalty-free license to use, copy, reproduce, process, adapt, modify, publish, transmit, display, and distribute such content.</p>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-semibold text-gray-900 mb-4">5. User Conduct</h2>
+            <p class="mb-3">You agree not to use the service to:</p>
+            <ul class="list-disc pl-6 mt-2 space-y-2">
+              <li>Violate applicable laws or regulations</li>
+              <li>Infringe intellectual property rights</li>
+              <li>Harass, abuse, or harm other users</li>
+              <li>Send spam or malicious content</li>
+              <li>Interfere with the normal operation of the service</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-semibold text-gray-900 mb-4">6. Service Modifications</h2>
+            <p>We reserve the right to modify or discontinue the service at any time, with or without prior notice. We shall not be liable to you or any third party for any modification, suspension, or discontinuation of the service.</p>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-semibold text-gray-900 mb-4">7. Limitation of Liability</h2>
+            <p>Under no circumstances shall we be liable for indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or use.</p>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-semibold text-gray-900 mb-4">8. Applicable Law</h2>
+            <p>These terms shall be governed by and construed in accordance with the laws of Portugal, regardless of conflicts of law provisions.</p>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-semibold text-gray-900 mb-4">9. Contact</h2>
+            <p>If you have any questions about these terms, please contact us at support@mytherapyspaces.com</p>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-semibold text-gray-900 mb-4">10. Responsibility for Profile Information</h2>
+            <p class="mb-3">All information provided in the profiles of therapists registered on the platform is the sole responsibility of the respective therapists, including but not limited to professional data, training, certifications, service descriptions, prices, therapeutic approaches and published content.</p>
+            <p class="mb-3">The platform is limited to providing a digital space for disclosure and contact, not being responsible for the veracity, accuracy, updating or adequacy of the information provided, nor for the services actually provided by therapists to their clients.</p>
+            <p>For legal compliance and platform protection purposes, a minimal documentary verification of the existence of certificates or qualifications legally required or declared by the therapist is carried out, which does not constitute clinical, technical or professional validation, nor does it imply any form of recommendation, guarantee or endorsement by the platform.</p>
+          </section>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <Footer />
+</div>
+<Chatbot />
