@@ -1,0 +1,147 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Chatbot from '../components/Chatbot.astro';
+---
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<div class="min-h-screen bg-background">
+    <Header />
+  <div class="container mx-auto px-4 py-16 mt-20 lg:mt-22">
+    <div class="text-center mb-16">
+      <h1 class="text-4xl font-display font-bold text-foreground mb-4">About MyTherapySpaces</h1>
+      <p class="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+        Your trusted partner in holistic wellness and personal growth
+      </p>
+    </div>
+    <div class="mb-20">
+      <div class="max-w-4xl mx-auto">
+        <div class="border bg-card text-card-foreground rounded-2xl border-border/50 shadow-lg">
+          <div class="p-12">
+            <h2 class="text-2xl font-semibold text-foreground mb-6 text-center">Our Story</h2>
+            <div class="prose prose-lg max-w-none text-muted-foreground leading-relaxed">
+              <p class="mb-6">
+                Founded in 2025, MyTherapySpaces emerged from the realization that finding trustworthy, qualified wellness professionals was often challenging and time-consuming. Too many people were struggling to find the right therapist, while qualified professionals lacked the tools to connect with those who needed their services most.
+              </p>
+              <p class="mb-6">
+                We envisioned a platform that would bridge this gap—where certified professionals could grow their practice while clients could find exactly what they needed with complete confidence. Our team combined expertise in healthcare, technology, and wellness to create something truly different.
+              </p>
+              <p>
+                Today, we're proud to be the trusted marketplace where thousands of healing relationships begin every month, all built on a foundation of verification, transparency, and genuine care.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mb-20">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-display font-semibold text-foreground mb-4">Our Values</h2>
+        <p class="text-muted-foreground max-w-2xl mx-auto">
+          To connect people with certified wellness professionals, creating safe spaces for healing, growth, and transformation. We believe everyone deserves access to quality holistic care that nurtures mind, body, and spirit.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="border bg-card text-card-foreground shadow-sm text-center rounded-2xl border-border/50 hover:shadow-lg transition-all duration-300">
+          <div class="p-8">
+            <div class="size-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-heart size-8 text-primary"
+              >
+                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-foreground mb-4">Authenticity</h3>
+            <p class="text-muted-foreground leading-relaxed">We believe in genuine connections and transparent practices</p>
+          </div>
+        </div>
+        <div class="border bg-card text-card-foreground shadow-sm text-center rounded-2xl border-border/50 hover:shadow-lg transition-all duration-300">
+          <div class="p-8">
+            <div class="size-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-shield size-8 text-primary"
+              >
+                <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-foreground mb-4">Safety</h3>
+            <p class="text-muted-foreground leading-relaxed">Your wellbeing and security are our top priorities</p>
+          </div>
+        </div>
+        <div class="border bg-card text-card-foreground shadow-sm text-center rounded-2xl border-border/50 hover:shadow-lg transition-all duration-300">
+          <div class="p-8">
+            <div class="size-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-users size-8 text-primary"
+              >
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-foreground mb-4">Community</h3>
+            <p class="text-muted-foreground leading-relaxed">Building supportive networks for collective healing</p>
+          </div>
+        </div>
+        <div class="border bg-card text-card-foreground shadow-sm text-center rounded-2xl border-border/50 hover:shadow-lg transition-all duration-300">
+          <div class="p-8">
+            <div class="size-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-target size-8 text-primary"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="12" cy="12" r="6"></circle>
+                <circle cx="12" cy="12" r="2"></circle>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-foreground mb-4">Excellence</h3>
+            <p class="text-muted-foreground leading-relaxed">Maintaining the highest standards in wellness care</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <Footer />
+</div>
+
+<Chatbot />
