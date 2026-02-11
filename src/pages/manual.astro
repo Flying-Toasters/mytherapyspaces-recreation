@@ -1,0 +1,97 @@
+---
+import Chatbot from '../components/Chatbot.astro';
+import '../styles/manual.css';
+---
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<div class="min-h-screen bg-white pt-20 text-foreground">
+  <div class="manual-container">
+    <div class="container">
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <h1>MY THERAPY SPACES</h1>
+          <p>Manual de Utilizador</p>
+        </div>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="#intro" class="nav-link active">🏠 Introdução</a></li>
+            <li><a href="#primeiros-passos" class="nav-link">🚀 Primeiros Passos</a></li>
+            <li><a href="#tipos-conta" class="nav-link">👥 Tipos de Conta</a></li>
+            <li><a href="#dashboard" class="nav-link">📊 Dashboard</a></li>
+            <li><a href="#funcionalidades" class="nav-link">⚙️ Funcionalidades</a></li>
+            <li><a href="#sessoes" class="nav-link">📅 Gestão de Sessões</a></li>
+            <li><a href="#pagamentos" class="nav-link">💳 Pagamentos</a></li>
+            <li><a href="#comunicacao" class="nav-link">💬 Comunicação</a></li>
+            <li><a href="#configuracoes" class="nav-link">🔧 Configurações</a></li>
+            <li><a href="#planos" class="nav-link">💎 Planos e Preços</a></li>
+            <li><a href="#faq" class="nav-link">❓ FAQ</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main class="main-content">
+        <section id="intro" class="content-section active">
+          <div class="hero-section">
+            <h1>MY THERAPY SPACES</h1>
+            <p>Transformando a gestão de espaços terapêuticos em algo simples e eficiente.</p>
+          </div>
+
+          <h2>O que é o My Therapy Spaces?</h2>
+
+          <p>
+            O <strong>My Therapy Spaces</strong> é uma plataforma completa para gestão de espaços terapêuticos, sessões de terapia e comunicação entre terapeutas, clientes e centros. Desenvolvida para simplificar a organização de horários, clientes, terapeutas e pagamentos, a plataforma oferece uma solução integrada para todos os aspetos da gestão terapêutica.
+          </p>
+
+          <div class="feature-grid">
+            <div class="feature-card">
+              <h3>📋 Gestão Simplificada</h3>
+              <ul>
+                <li>Organize horários, clientes e terapeutas em um só lugar</li>
+                <li>Sistema de agendamento intuitivo</li>
+                <li>Gestão de materiais e notas</li>
+              </ul>
+            </div>
+
+            <div class="feature-card">
+              <h3>💰 Pagamentos Automatizados</h3>
+              <ul>
+                <li>Receba pagamentos sem complicações</li>
+                <li>Integração com sistemas de pagamento</li>
+                <li>Controlo financeiro completo</li>
+              </ul>
+            </div>
+
+            <div class="feature-card">
+              <h3>💬 Comunicação Integrada</h3>
+              <ul>
+                <li>Chat interno para comunicação entre utilizadores</li>
+                <li>Sistema de notificações</li>
+                <li>Partilha de materiais e ficheiros</li>
+              </ul>
+            </div>
+
+            <div class="feature-card">
+              <h3>📈 Análises Detalhadas</h3>
+              <ul>
+                <li>Acompanhe o progresso e desempenho</li>
+                <li>Relatórios de sessões</li>
+                <li>Estatísticas de utilização</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="highlight">
+            <h3>🌍 Multi-idioma</h3>
+            <p>
+              A plataforma está disponível em <strong>Português</strong>, <strong>Inglês</strong> e <strong>Espanhol</strong>, com interface totalmente adaptável às suas necessidades.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</div>
+<Chatbot />
