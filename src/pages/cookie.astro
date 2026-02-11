@@ -1,0 +1,86 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Chatbot from '../components/Chatbot.astro';
+---
+<head>
+    <meta charset="utf-8">
+</head>
+
+<div class="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 mt-20 lg:mt-22">
+  <Header />
+    <div class="max-w-4xl mx-auto">
+    <a class="inline-flex items-center text-gray-600 hover:text-gray-900 mb-8" href="/">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="lucide lucide-arrow-left size-5 mr-2"
+      >
+        <path d="m12 19-7-7 7-7"></path>
+        <path d="M19 12H5"></path>
+      </svg>
+      Back to home
+    </a>
+    <div class="bg-white shadow rounded-lg p-8">
+      <h1 class="text-3xl font-bold text-gray-900 mb-2">Privacy and Cookies Settings</h1>
+      <p class="text-sm text-gray-500 mb-8">Last updated: December 1, 2026</p>
+      <div class="space-y-6 text-gray-600">
+        <section>
+          <h2 class="text-xl font-semibold text-gray-900 mb-4">1. Introduction</h2>
+          <p class="mb-3">
+            This Cookie Policy explains how MyTherapySpaces uses cookies and similar technologies when you visit our website. This policy should be read in conjunction with our Privacy Policy.
+          </p>
+          <p>
+            By using our website, you agree to the use of cookies in accordance with this policy. If you do not agree, you should configure your browser to reject cookies or stop using our website.
+          </p>
+        </section>
+        <section>
+          <h2 class="text-xl font-semibold text-gray-900 mb-4">2. What are Cookies?</h2>
+          <p>
+            Cookies are small text files that are stored on your device (computer, tablet or smartphone) when you visit a website. Cookies allow the website to "remember" your actions and preferences over a period of time.
+          </p>
+        </section>
+        <section>
+          <h2 class="text-xl font-semibold text-gray-900 mb-4">3. Types of Cookies We Use</h2>
+          <div class="space-y-4">
+            <div>
+              <h3 class="text-lg font-semibold text-gray-800 mb-2">3.1 Necessary Cookies</h3>
+              <p>These cookies are essential for the website to function and cannot be disabled in our systems.</p>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-800 mb-2">3.2 Preference Cookies</h3>
+              <p>These cookies allow the website to remember your choices and provide enhanced, more personalized features.</p>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-800 mb-2">3.3 Statistical Cookies</h3>
+              <p>These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our website.</p>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-800 mb-2">3.4 Marketing Cookies</h3>
+              <p>
+                These cookies may be set through our website by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant ads on other websites.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2 class="text-xl font-semibold text-gray-900 mb-4">4. Cookie Settings</h2>
+          <p>You can manage your cookie preferences at any time through your browser or the cookie banner.</p>
+        </section>
+        <section>
+          <h2 class="text-xl font-semibold text-gray-900 mb-4">5. Privacy Policy</h2>
+          <p>For more information about data protection, see our Privacy Policy.</p>
+        </section>
+      </div>
+    </div>
+  </div>
+  <Footer />
+</div>
+<Chatbot />
